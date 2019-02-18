@@ -1,0 +1,8 @@
+POSIX compliant, no GNU sed feature used
+
+Press enter to start
+
+Controls:
+  a => move left
+  d => move right
+  enter => place your choice
