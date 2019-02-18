@@ -19,17 +19,17 @@ s/^$//; t enter
 
 d
 
-: left
+:left
 g
 s/\(.*\) \([^?]*\)?/\1?\2 /; t next
 d
 
-: right
+:right
 g
 s/?\([^ ]*\) / \1?/; t next
 d
 
-: enter
+:enter
 g
 s/^\(.\)\(.*\)?/\1\2\1/; t check_victory
 
